@@ -9,7 +9,7 @@ public interface ICalculadora {
      * @param valor2
      * @return
      */
-    public float sumar(int valor1, int valor2);
+    public float sumar(float valor1, float valor2);
 
     /**
      *
@@ -17,7 +17,7 @@ public interface ICalculadora {
      * @param valor2
      * @return
      */
-    public float restar(int valor1, int valor2);
+    public float restar(float valor1, float valor2);
 
     /**
      *
@@ -25,7 +25,7 @@ public interface ICalculadora {
      * @param valor2
      * @return
      */
-    public float multiplicar(int valor1, int valor2);
+    public float multiplicar(float valor1, float valor2);
 
     /**
      *
@@ -33,5 +33,5 @@ public interface ICalculadora {
      * @param valor2
      * @return
      */
-    public float dividir(int valor1, int valor2);
+    public float dividir(float valor1, float valor2);
 }

@@ -10,7 +10,7 @@ public class Calculadora implements ICalculadora {
      * @return
      */
     @Override
-    public float sumar(int valor1, int valor2) {
+    public float sumar(float valor1, float valor2) {
         float resultado = valor1 + valor2;
         return resultado;
     }
@@ -22,7 +22,7 @@ public class Calculadora implements ICalculadora {
      * @return
      */
     @Override
-    public float restar(int valor1, int valor2) {
+    public float restar(float valor1, float valor2) {
         float resultado = valor1 - valor2;
         return resultado;
     }
@@ -34,7 +34,7 @@ public class Calculadora implements ICalculadora {
      * @return
      */
     @Override
-    public float multiplicar(int valor1, int valor2) {
+    public float multiplicar(float valor1, float valor2) {
         float resultado = valor1 * valor2;
         return resultado;
 
@@ -47,7 +47,7 @@ public class Calculadora implements ICalculadora {
      * @return
      */
     @Override
-    public float dividir(int valor1, int valor2) {
+    public float dividir(float valor1, float valor2) {
         float resultado = valor1 / valor2;
         return resultado;
     }
